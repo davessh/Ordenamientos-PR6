@@ -35,7 +35,7 @@ public class lectorCSV {
     }
 
     public static void main(String[] args) {
-        String ruta = "src/main/resources/WeatherDataSet/weatherHistory.csv";
+        String ruta = "src/resources/weatherHistory.csv";
         lectorCSV lector = new lectorCSV(ruta);
 
         String[][] contenido = lector.getDatos();
